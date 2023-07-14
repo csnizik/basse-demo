@@ -9,8 +9,8 @@
       "url": "https://packages.drupal.org/8"
     },
     {
-        "type": "composer",
-        "url": "https://asset-packagist.org"
+      "type": "composer",
+      "url": "https://asset-packagist.org"
     }
   ],
   "require": {
@@ -37,6 +37,14 @@
       "web/libraries/{$name}": [
         "type:drupal-library"
       ]
+    },
+    "drupal-scaffold": {
+      "locations": {
+        "web-root": "web/"
+      },
+      "file-mapping": {
+        "[web-root]/profiles/contrib/base_demo/": "base_demo/"
+      }
     }
   },
   "scripts": {
