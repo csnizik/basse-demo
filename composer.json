@@ -7,11 +7,15 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
     }
   ],
   "require": {
     "composer/installers": "^1.9",
-    "Vardot/varbase-project": "^9.0"
+    "vardot/varbase-project": "^9.0"
   },
   "extra": {
     "installer-paths": {

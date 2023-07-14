@@ -4,8 +4,6 @@ services:
     image: drupal:9-apache
     ports:
       - 8080:80
-    volumes:
-      - ./web:/var/www/html
 
   db:
     image: mariadb:latest
