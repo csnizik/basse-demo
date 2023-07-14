@@ -43,7 +43,7 @@
         "web-root": "web/"
       },
       "file-mapping": {
-        "[web-root]/profiles/contrib/base_demo/": "base_demo/"
+        "[web-root]/profiles/custom/base_demo/": "base_demo/"
       }
     }
   },
