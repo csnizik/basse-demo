@@ -41,9 +41,6 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "web/"
-      },
-      "file-mapping": {
-        "[web-root]/profiles/custom/base_demo/": "base_demo/"
       }
     }
   },
